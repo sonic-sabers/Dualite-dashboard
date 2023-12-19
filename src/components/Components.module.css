@@ -1,0 +1,113 @@
+.headerContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: 0.866px solid #000;
+
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.all-projects-button {
+  width: 400px;
+  margin-right: 20px;
+  background: pink;
+  border-radius: 12.594px;
+  border: 0.866px solid #000;
+  background: rgba(255, 255, 255, 0.10);
+  height: 50px;
+  width: 130px;
+
+}
+
+.all-projects-button p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.settings {
+  color: #00000060;
+  font-size: 18.884px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+  background: transparent;
+  margin: 0 40px;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: 40px;
+  margin-top: 7px;
+}
+
+.last-updated {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: 40px;
+  margin-top: 7px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+
+}
+
+.last-updated p {
+  color: #00000080;
+  font-size: 18.884px;
+  font-weight: 200;
+
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  flex-direction: column;
+  align-self: center;
+  align-content: center;
+}
+.listContainer h1 {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+
+}
+.listContainer h2 {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  max-width: 40%;
+  margin-top: 20px;
+}
+.listContainer p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+  max-width: 40%;
+}

@@ -1,0 +1,23 @@
+.new-project-button {
+    background: #2448FC;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 15.594px;
+    justify-content: center;
+    align-items: center;
+    display:inline;
+    width: 200px;
+    height: 45px;
+    color: #FFF;
+    
+  }
+  
+  .new-project-button p{
+    color: #FFF;
+    font-size: 18.884px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display:inline;
+  }

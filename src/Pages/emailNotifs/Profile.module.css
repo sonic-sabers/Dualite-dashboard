@@ -1,0 +1,67 @@
+.container {
+  background: #fff;
+  height: 100vh;
+  margin-left: 100px;
+  padding: 50px;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.form-header h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+.form-header p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+
+}
+
+.content {
+  width: calc(100% - 300px);
+  position: relative;
+  left: 300px;
+  background-color: #fff;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.form {
+width: 50%;
+}
+
+.notifTitle h1{
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 30px;
+}
+.notifTitle p{
+  color: #8F8F8F;
+  font-size: 18.313px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+

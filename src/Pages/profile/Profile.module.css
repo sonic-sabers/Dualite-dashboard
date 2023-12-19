@@ -1,0 +1,83 @@
+.container {
+  background: #fff;
+  height: 100vh;
+  margin-left: 100px;
+  padding: 50px;
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+}
+
+.form-header h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+.form-header p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+
+}
+
+.content {
+  width: calc(100% - 300px);
+  position: relative;
+  left: 300px;
+  background-color: #fff;
+}
+
+
+.card-container {
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.date-placeholder {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  /* align-items:baseline; */
+  flex-direction: row;
+  display: flex;
+  align-items: end;
+}
+.form {
+width: 50%;
+}
+
+.delete-button-container {
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  display:inline;
+  background-color: transparent;
+}
+
+.delete-button-container h3{
+  color: #FF150A;
+
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

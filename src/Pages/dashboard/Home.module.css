@@ -1,0 +1,30 @@
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content{
+  width: calc(100% - 300px);
+  position: relative;
+  left: 300px;
+  background-color: #fff;
+}
+
+
+.card-container{
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.date-placeholder{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+

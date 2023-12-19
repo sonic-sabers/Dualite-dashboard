@@ -1,0 +1,109 @@
+.container {
+    width: 300px;
+    background: #00199D;
+    box-sizing: border-box;
+    /* padding: 20px; */
+    position: fixed;
+    height: 100%;
+    border-right: 1px solid #c4c4c4;
+    /* border-right: 1px solid rgb(220, 218, 218); */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    z-index: 1;
+}
+
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.button-container {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    border-radius: 16px;
+    justify-content: space-between;
+    /* margin : 0 10px; */
+    padding: 10px 20px;
+    /* flex-shrink: 0; */
+    display: flex;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.button-container span {
+    color: #FFF;
+    font-size: 30.844px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.logo-explain {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebar-container {
+    margin-top: 40px;
+
+}
+
+.sidebar-menu-item {
+    list-style: none;
+    width: 100%;
+    padding: 0 0;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.sidebar-menu-item.active {
+    /* background: black; */
+    color: #fff;
+    border-radius: 5px;
+    font-size: 33px;
+
+}
+
+.sidebar-menu-item a {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* padding: 10px 0; */
+    color: rgb(79, 79, 79);
+    transition: all 0.5s ease;
+}
+
+.sidebar-menu-item.active a {
+    color: #fff;
+
+}
+
+.sidebar-menu-item a:hover {
+    font-weight: 600;
+}
+
+.sidebar-menu-item a span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sidebar-footer {
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.sidebar-footer span {
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff
+}
