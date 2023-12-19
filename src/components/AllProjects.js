@@ -36,8 +36,10 @@ const AllProjects = () => {
         </div>
         <h2>Get full flows code in HTML/React</h2>
         <p>Best for websites, landing pages, prototypes and full application. </p>
-        <Button title='New Project' />
-
+        {/* <Button title='New Project' /> */}
+        <button className={styles["new-project-button"]}>
+          <p>New Project</p>
+        </button>
       </div>
     </section>
   )
