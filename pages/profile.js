@@ -3,8 +3,14 @@
 import Profile from "src/Pages/profile";
 import SettingsLayout from "src/ui-components/SettingsLayout";
 
-export default () => (
-  <SettingsLayout>
+import React from 'react'
+
+const index = () => {
+  return (
+    <SettingsLayout>
     <Profile />
   </SettingsLayout>
-)
+  )
+}
+
+export default index
